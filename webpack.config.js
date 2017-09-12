@@ -2,7 +2,7 @@
 * @Author: David Souza
 * @Date:   2017-09-05 09:06:33
 * @Last Modified by:   David Souza
-* @Last Modified time: 2017-09-05 09:06:48
+* @Last Modified time: 2017-09-06 08:59:12
 */
 const path = require('path');
 
@@ -23,7 +23,7 @@ module.exports = {
     loaders: [{
       test: /\.jsx?$/,
       include: path.join(__dirname, '/client/src'),
-      loader: 'babel',
+      loader: 'babel-loader',
       query: {
         presets: ["react", "es2015"]
       }
