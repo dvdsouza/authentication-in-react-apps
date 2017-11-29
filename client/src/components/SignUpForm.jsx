@@ -18,7 +18,7 @@ const SignUpForm = ({
 
             <div className="field-line">
                 <TextField
-                    floadtingLabelText="Name"
+                    floatingLabelText="Name"
                     name="name"
                     errorText={errors.name}
                     onChange={onChange}
@@ -63,4 +63,4 @@ SignUpForm.propTypes = {
     user: PropTypes.object.isRequired
 };
 
-export defaults SignUpForm;
+export default SignUpForm;

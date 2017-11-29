@@ -54,4 +54,4 @@ LoginForm.propTypes = {
     user: PropTypes.object.isRequired
 };
 
-export defaults LoginForm;
+export default LoginForm;
